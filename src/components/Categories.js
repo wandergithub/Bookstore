@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Categories = (props) => (
+const Categories = () => (
   <div>
-    <p>{props.author}</p>
+    <button type="button">Check status</button>
   </div>
 );
 
