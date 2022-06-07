@@ -35,9 +35,9 @@ const Books = [
 export default function booksreducer(state = Books, action = {}) {
   switch (action.type) {
     case ADDED_BOOK:
-      return [...state, addBook(action.title, action.author, action.id)];
+      return [...state, { title: action.title, author: action.author, id: action.id }];
     case REMOVED_BOOK:
-      return [...state, removeBook(action.id)];
+      return state.filter((book) => book.id !== action.id);
     default: return state;
   }
 }
