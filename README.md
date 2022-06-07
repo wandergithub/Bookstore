@@ -1,9 +1,7 @@
 
-# Bookstore
+# Bookstore <img src="https://img.icons8.com/external-filled-outline-wichaiwi/344/external-description-e-commerce-website-filled-outline-wichaiwi.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-# Math Magicians  <img src="https://img.icons8.com/external-filled-outline-wichaiwi/344/external-description-e-commerce-website-filled-outline-wichaiwi.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
-
-> This project consists of a website that displays a list of books that the user can modify by adding more books or removing a selected book. Build using ReactJS.
+> This project consists of a website that displays a list of books that the user can modify by adding more books or removing a selected book. Build using React and Redux.
 
 <!-- 
 ## App screenshot <img src="https://img.icons8.com/bubbles/344/screenshot.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
@@ -13,6 +11,7 @@
 ## Built With <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-build-agile-flaticons-lineal-color-flat-icons.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
 - React 
+- Redux
       
 
 <!-- ## Live Demo <img src="https://img.icons8.com/color/344/trial-version.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
@@ -69,4 +68,5 @@ This project is [MIT](./MIT.md) licensed.
 <br>
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ![](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat)
+![](https://img.shields.io/badge/-Redux-764abc?logo=redux&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-JavaScript-yellow?logo=JavaScript&logoColor=white&style=flat)
