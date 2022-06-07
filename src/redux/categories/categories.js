@@ -1,20 +1,18 @@
-//Actions
+// Actions
 const CHECKED_STATUS = 'CHECKED_STATUS';
 
-//Reducer
+// Reducer
 export default function categoriesreducer(state = [], action) {
-  switch(action.type) {
+  switch (action.type) {
     case CHECKED_STATUS:
-      return action.message
+      return action.message;
     default:
-      return state
+      return state;
   }
 }
 
-//Actions creators
-export const checkStatus = (message="Under construction") => {
-  return {
-    type: CHECKED_STATUS,
-    message: message
-  }
-};
+// Actions creators
+export const checkStatus = (message = 'Under construction') => ({
+  type: CHECKED_STATUS,
+  message,
+});
