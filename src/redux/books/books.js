@@ -20,12 +20,24 @@ export function removeBook(id) {
 }
 
 // Reducer
-export default function booksreducer(state = [], action = {}) {
+const Books = [
+  {
+    author: 'Jhon Snow',
+    title: 'Capuchino asuelto',
+    id: '0',
+  },
+  {
+    author: 'Shekopsky',
+    title: 'Las hadas',
+    id: '1',
+  },
+];
+export default function booksreducer(state = Books, action = {}) {
   switch (action.type) {
     case ADDED_BOOK:
-      return [...state, addBook(action.title, action.author, action.id)];
+      return [...state, { title: action.title, author: action.author, id: action.id }];
     case REMOVED_BOOK:
-      return [...state, removeBook(action.id)];
+      return state.filter((book) => book.id !== action.id);
     default: return state;
   }
 }

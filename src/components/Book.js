@@ -1,14 +1,17 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
+import { removeBook } from '../redux/books/books';
 
 const Book = (props) => {
-  const { title, author } = props;
+  const dispatch = useDispatch();
+  const { title, author, id } = props;
   return (
     <div>
       <p>{title}</p>
       <strong>by</strong>
       <p>{author}</p>
-      <button type="button">Remove</button>
+      <button type="button" onClick={() => dispatch(removeBook(id))}>Remove</button>
     </div>
   );
 };
@@ -16,11 +19,13 @@ const Book = (props) => {
 Book.propTypes = {
   title: PropTypes.string,
   author: PropTypes.string,
+  id: PropTypes.string,
 };
 
 Book.defaultProps = {
   title: 'Not specified',
   author: 'Anonimous',
+  id: 'noid',
 };
 
 export default Book;
