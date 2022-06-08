@@ -1,7 +1,7 @@
 
 # Bookstore <img src="https://img.icons8.com/external-filled-outline-wichaiwi/344/external-description-e-commerce-website-filled-outline-wichaiwi.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-> This project consists of a website that displays a list of books that the user can modify by adding more books or removing a selected book. Build using React and Redux.
+>  This project consists of a CRUD website, where the user can manage a list of books. Build using React and Redux consuming the bookstore API service provided by the Microverse team. This project is meant to practice Redux knowledge like; Store, actions, reducers, and the principle of immutability. Also, learned and practice using React-Redux together with APIs.
 
 <!-- 
 ## App screenshot <img src="https://img.icons8.com/bubbles/344/screenshot.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
