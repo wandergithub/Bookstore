@@ -6,13 +6,26 @@ const RETRIEVED_BOOKS = 'RETRIEVED_BOOKS';
 const RETRIEVE_FAILED = 'RETRIEV_FAILED';
 const RETRIEV = 'RETRIEV';
 // Action Creators
-export function addBook(title, author, id) {
-  return {
-    type: ADDED_BOOK,
-    title,
-    author,
-    id,
-  };
+export function addBook(title, author, id, appId) {
+  const url = `https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/${appId}/books`;
+  return (dispatch) => (
+    axios({
+      method: 'POST',
+      url,
+      data: {
+        item_id: id,
+        title,
+        author,
+        category: 'Fiction3',
+      },
+    })
+      .then(
+        () => dispatch({
+          type: ADDED_BOOK, title, author, id,
+        }),
+        (err) => dispatch({ type: RETRIEVE_FAILED, err }),
+      )
+  );
 }
 
 export function removeBook(id) {
