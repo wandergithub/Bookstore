@@ -11,7 +11,7 @@ const Book = (props) => {
       <p>{title}</p>
       <strong>by</strong>
       <p>{author}</p>
-      <button type="button" onClick={() => dispatch(removeBook(id))}>Remove</button>
+      <button type="button" onClick={() => dispatch(removeBook(id, JSON.parse(localStorage.getItem('appId'))))}>Remove</button>
     </div>
   );
 };
