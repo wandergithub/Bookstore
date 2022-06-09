@@ -5,7 +5,7 @@ import profileIcon from '../assets/profileIcon.svg';
 const Header = () => (
   <header className="header side-p">
     <div className="div-1">
-      <h1 className="h1">Bookstore CMS</h1>
+      <p className="h1">Bookstore CMS</p>
       <Link to="/" className="link">BOOKS</Link>
       <Link to="/Categories" className="link">CATEGORIES</Link>
     </div>

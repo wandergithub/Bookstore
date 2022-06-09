@@ -5,7 +5,7 @@
   color: #0290ff;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 1.475rem;
+  font-size: 1.875rem;
   justify-content: space-between;
 }
 
@@ -17,6 +17,10 @@
   font-weight: normal;
   font-size: 0.813rem;
   letter-spacing: 1.9px;
+}
+
+.link:hover {
+  color: black;
 }
 
 .profile-i {

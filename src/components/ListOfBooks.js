@@ -24,6 +24,7 @@ const ListOfBooks = (props) => {
           ))
         }
       </ul>
+      <div className="line side-m m-top" />
       <Form />
     </div>
   );
