@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { removeBook } from '../redux/books/books';
 import './style/book.css';
+import progressImg from '../assets/progress.png';
 
 const Book = (props) => {
   const dispatch = useDispatch();
@@ -11,15 +12,31 @@ const Book = (props) => {
   } = props;
   return (
     <div className="book-container">
-      <div className="book-description">
-        <p className="category">{category}</p>
-        <p className="title">{title}</p>
-        <p className="author">{author}</p>
-      </div>
       <div>
-        <button className="btn" type="button">Comments</button>
-        <button className="btn side-bars" type="button" onClick={() => dispatch(removeBook(id, JSON.parse(localStorage.getItem('appId'))))}>Remove</button>
-        <button className="btn edit" type="button">Edit</button>
+        <div className="book-description">
+          <p className="category">{category}</p>
+          <p className="title">{title}</p>
+          <p className="author">{author}</p>
+        </div>
+        <div>
+          <button className="btn" type="button">Comments</button>
+          <button className="btn side-bars" type="button" onClick={() => dispatch(removeBook(id, JSON.parse(localStorage.getItem('appId'))))}>Remove</button>
+          <button className="btn edit" type="button">Edit</button>
+        </div>
+      </div>
+      <div className="half-2">
+        <div className="progress-sec">
+          <img className="prog-bar" src={progressImg} alt="progress bar" />
+          <div>
+            <p className="percent">64%</p>
+            <p>Completed</p>
+          </div>
+        </div>
+        <div className="chapter-sec">
+          <p className="cp">CURRENT CHAPTER</p>
+          <p className="cp c">Chapter 17</p>
+          <button className="btn-u" type="button">UPDATE PROGRESS</button>
+        </div>
       </div>
     </div>
   );
