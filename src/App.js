@@ -18,6 +18,7 @@ function App() {
   return (
     <div>
       <Header />
+      <div className="line" />
       <Routes>
         <Route path="/" element={<ListOfBooks bookList={books} />} />
         <Route path="/Categories" element={<Categories author="Jhon Snow" />} />

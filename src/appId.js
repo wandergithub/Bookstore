@@ -2,11 +2,11 @@ import axios from 'axios';
 
 const appId = async () => {
   if (localStorage.getItem('appId') === null) {
-    const response = await axios({
+    await axios({
       method: 'POST',
       url: 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/',
     });
-    localStorage.setItem('appId', JSON.stringify(response.data));
+    localStorage.setItem('appId', JSON.stringify('m6fXzWxWXOmIbHtAiJlt'));
   }
 };
 export default appId;

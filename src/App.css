@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto+Slab:wght@300;700&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+.line {
+  border: 1px solid #e8e8e8;
+  background-color: #e8e8e8;
+}
+
 a {
   margin: 20px;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0%;
+}
+
+.side-m {
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+}
+
+.side-p {
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0%;
+  margin-top: 2rem;
+}
+
+.m-top {
+  margin-top: 2.5rem;
 }

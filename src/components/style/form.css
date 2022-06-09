@@ -1,0 +1,48 @@
+.form {
+  margin-top: 1.8rem;
+  margin-bottom: 16.5rem;
+}
+
+.input {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  width: 20.5rem;
+  height: 2.813rem;
+}
+
+.select {
+  margin: auto 2.121rem;
+}
+
+.add-t {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  color: #888;
+  margin-bottom: 3%;
+}
+
+.btn-add {
+  width: 11.5rem;
+  height: 2.813rem;
+  border-radius: 3px;
+  font-size: 0.813rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 0%;
+}
+
+.input::placeholder,
+.select {
+  color: #c4c4c4;
+  padding-left: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.15px;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+}

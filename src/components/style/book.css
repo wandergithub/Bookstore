@@ -1,0 +1,126 @@
+.book-container {
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 0.93rem;
+  padding: 1.68rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-description p {
+  margin: 0.25rem;
+}
+
+.category {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #121212;
+  opacity: 0.5;
+}
+
+.title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+  font-weight: bold;
+}
+
+.author {
+  font-family: 'Roboto Slab', serif;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.btn {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: 'Roboto Slab', serif;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin-top: 1.3rem;
+  padding-right: 0.9rem;
+  cursor: pointer;
+}
+
+.side-bars {
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid#e8e8e8;
+  padding-left: 0.9rem;
+}
+
+.edit {
+  padding-left: 0.9rem;
+}
+
+.half-2 {
+  display: flex;
+}
+
+.prog-bar {
+  width: 4.25rem;
+  height: 4.25rem;
+}
+
+.progress-sec {
+  display: flex;
+  align-items: center;
+}
+
+.progress-sec > div {
+  padding-right: 4.93rem;
+  margin-left: 1.3rem;
+  border-right: 2px solid#e8e8e8;
+}
+
+.chapter-sec {
+  margin-left: 3.68rem;
+  margin-right: 9.1rem;
+}
+
+.percent {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0%;
+  color: #121212;
+}
+
+.percent + p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  margin: 0%;
+  color: #121212;
+  opacity: 0.5;
+}
+
+.cp {
+  font-family: 'Roboto Slab', serif;
+  color: #121212;
+  opacity: 0.5;
+  font-size: 0.813rem;
+  font-weight: 300;
+  margin-bottom: 0.4rem;
+}
+
+.c {
+  font-size: 1rem;
+  opacity: 1;
+  letter-spacing: -0.4px;
+  margin-top: 0%;
+}
+
+.btn-u {
+  margin-top: 1.4rem;
+  background-color: #0290ff;
+  border: none;
+  border-radius: 3px;
+  width: 11.5rem;
+  height: 2rem;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  cursor: pointer;
+}
