@@ -3,7 +3,7 @@ import './style/header.css';
 import profileIcon from '../assets/profileIcon.svg';
 
 const Header = () => (
-  <header className="header">
+  <header className="header side-p">
     <div className="div-1">
       <h1 className="h1">Bookstore CMS</h1>
       <Link to="/" className="link">BOOKS</Link>

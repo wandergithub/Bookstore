@@ -15,7 +15,7 @@ const ListOfBooks = (props) => {
   });
   return (
     <div>
-      <ul>
+      <ul className="list side-m">
         {
           bookList.map((book) => (
             <li key={book.id}>
