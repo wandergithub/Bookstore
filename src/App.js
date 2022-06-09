@@ -1,11 +1,19 @@
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Categories from './components/Categories';
 import ListOfBooks from './components/ListOfBooks';
+import { retrieveBooks } from './redux/books/books';
+import './appId';
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    const id = JSON.parse(localStorage.getItem('appId'));
+    dispatch(retrieveBooks(id));
+  }, []);
   const books = useSelector((state) => state.books);
   return (
     <div>

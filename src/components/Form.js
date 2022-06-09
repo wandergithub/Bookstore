@@ -20,7 +20,7 @@ const Form = () => {
         <h2>Add New Book</h2>
         <input placeholder="Book Title" type="text" name="title" onChange={handleInput} />
         <input placeholder="Book Author" type="text" name="author" onChange={handleInput} />
-        <button type="button" onClick={() => dispatch(addBook(book.title, book.author, book.id))}>ADD Book</button>
+        <button type="button" onClick={() => dispatch(addBook(book.title, book.author, book.id, JSON.parse(localStorage.getItem('appId'))))}>ADD Book</button>
       </form>
     </div>
   );
