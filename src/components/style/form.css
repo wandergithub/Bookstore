@@ -10,7 +10,7 @@
   height: 2.813rem;
 }
 
-.select{
+.select {
   margin: auto 2.121rem;
 }
 
@@ -19,7 +19,7 @@
   font-size: 1.25rem;
   font-weight: bold;
   letter-spacing: -0.18px;
-  color: #888888;
+  color: #888;
   margin-bottom: 3%;
 }
 
@@ -30,17 +30,18 @@
   font-size: 0.813rem;
   font-weight: bold;
   letter-spacing: 0.5px;
-  margin-top: 0%
+  margin-top: 0%;
 }
 
-.input::placeholder, .select {
+.input::placeholder,
+.select {
   color: #c4c4c4;
   padding-left: 1rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   letter-spacing: -0.15px;
-
 }
+
 #form {
   display: flex;
   align-items: center;
