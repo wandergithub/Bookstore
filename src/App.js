@@ -12,7 +12,7 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     appId();
-    const id = JSON.parse(localStorage.getItem('appId'));
+    const id = JSON.parse(localStorage.getItem('appId')) ?? 'm6fXzWxWXOmIbHtAiJlt';
     dispatch(retrieveBooks(id));
   }, []);
   const books = useSelector((state) => state.books);

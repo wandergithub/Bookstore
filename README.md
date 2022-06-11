@@ -3,10 +3,10 @@
 
 >  This project consists of a CRUD website, where the user can manage a list of books. Build using React and Redux consuming the bookstore API service provided by the Microverse team. This project is meant to practice Redux knowledge like; Store, actions, reducers, and the principle of immutability. Also, learned and practice using React-Redux together with APIs.
 
-<!-- 
+
 ## App screenshot <img src="https://img.icons8.com/bubbles/344/screenshot.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-![App ScreenShot](./app-screenshot.png "App screenshot") -->
+![App ScreenShot](./app-screenshot.png "App screenshot")
 
 ## Built With <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-build-agile-flaticons-lineal-color-flat-icons.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
@@ -14,12 +14,10 @@
 - Redux
       
 
-<!-- ## Live Demo <img src="https://img.icons8.com/color/344/trial-version.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
-
-[Heroku](https://wander-math-magicians.herokuapp.com) <img src="https://img.icons8.com/color/344/heroku.png" alt="Bootstrap Icon" style="width: 25px; height: 25px">
+## Live Demo <img src="https://img.icons8.com/color/344/trial-version.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
 
-[Netlify](https://wander-math-magicians.netlify.app)  <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="Bootstrap Icon" style="width: 25px; height: 25px"> -->
+[Netlify](https://dev--relaxed-liger-ac7a98.netlify.app)  <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="Bootstrap Icon" style="width: 25px; height: 25px">
 
 
 ## Usage  <img src="https://img.icons8.com/external-filled-outline-geotatah/344/external-engine-merger-and-acquisition-filled-outline-filled-outline-geotatah.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
