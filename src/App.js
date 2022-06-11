@@ -6,11 +6,12 @@ import Header from './components/Header';
 import Categories from './components/Categories';
 import ListOfBooks from './components/ListOfBooks';
 import { retrieveBooks } from './redux/books/books';
-import './appId';
+import appId from './appId';
 
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
+    appId();
     const id = JSON.parse(localStorage.getItem('appId'));
     dispatch(retrieveBooks(id));
   }, []);
